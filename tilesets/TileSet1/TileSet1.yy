@@ -1,5 +1,4 @@
 {
-  "name": "TileSet1",
   "spriteId": {
     "name": "importedObjectsFromZelaLikeDemo",
     "path": "sprites/importedObjectsFromZelaLikeDemo/importedObjectsFromZelaLikeDemo.yy",
@@ -21,7 +20,7 @@
   "tile_count": 1440,
   "autoTileSets": [],
   "tileAnimationFrames": [],
-  "tileAnimationSpeed": 15.0,
+  "tileAnimationSpeed": 2.0,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -1477,6 +1476,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
+  "name": "TileSet1",
   "tags": [],
   "resourceType": "GMTileSet",
 }
