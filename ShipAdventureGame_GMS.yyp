@@ -1,6 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":0,},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":16,},
+    {"id":{"name":"importedObjectsFromZelaLikeDemo","path":"sprites/importedObjectsFromZelaLikeDemo/importedObjectsFromZelaLikeDemo.yy",},"order":17,},
+    {"id":{"name":"Grass","path":"objects/Grass/Grass.yy",},"order":0,},
+    {"id":{"name":"Grass_room","path":"rooms/Grass_room/Grass_room.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -14,7 +19,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Grass_room","path":"rooms/Grass_room/Grass_room.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
