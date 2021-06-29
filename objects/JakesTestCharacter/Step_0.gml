@@ -5,7 +5,7 @@
 if (target_x > x) { x +=4 }; //right
 if (target_x < x) { x -=4 }; //left
 if (target_y > y) { y +=4 }; //down
-if (target_y > y) { y -=4 }; //up
+if (target_y < y) { y -=4 }; //up
 
 //check for destination
 if (target_x == x && target_y == y ) {
