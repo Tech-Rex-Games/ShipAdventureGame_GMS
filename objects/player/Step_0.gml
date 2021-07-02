@@ -28,23 +28,23 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A")) && !moving) {
   moving = true
   facing = 2
   sprite_index = player_runLeft
-  target_x -= 64
+  target_x -= 32
 }
 if (keyboard_check(vk_right) or keyboard_check(ord("D")) && !moving) {
   moving = true
-  target_x += 64
+  target_x += 32
   facing = 1
   sprite_index = player_runRight
 }
 if (keyboard_check(vk_up) or keyboard_check(ord("W")) && !moving) {
   moving = true
-  target_y -= 64
+  target_y -= 32
   facing = 3
   sprite_index = player_runUp
 }
 if (keyboard_check(vk_down) or keyboard_check(ord("S")) && !moving) {
   moving = true
-  target_y += 64
+  target_y += 32
   facing = 4
   sprite_index = player_runDown
 }

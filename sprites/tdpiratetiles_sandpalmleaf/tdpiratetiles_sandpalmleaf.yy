@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"751446ae-5d91-415f-bfa5-ea47d61dca2b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "TileSets",
+    "path": "folders/Sprites/TileSets.yy",
   },
   "resourceVersion": "1.0",
   "name": "tdpiratetiles_sandpalmleaf",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"788e0597-9a34-4ed9-bb68-f191cb15b786","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "TileSets",
+    "path": "folders/Sprites/TileSets.yy",
   },
   "resourceVersion": "1.0",
   "name": "tdpiratetiles_plankbridge",
