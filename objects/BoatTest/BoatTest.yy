@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "player_idleRight",
-    "path": "sprites/player_idleRight/player_idleRight.yy",
+    "name": "BoatTestSprite",
+    "path": "sprites/BoatTestSprite/BoatTestSprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"WallTest","path":"objects/WallTest/WallTest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "player",
+  "name": "BoatTest",
   "tags": [],
   "resourceType": "GMObject",
 }
