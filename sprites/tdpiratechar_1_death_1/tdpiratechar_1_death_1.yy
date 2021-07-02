@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0b30bb81-fd98-40e3-9abb-f2d0242cdb12","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Death",
+    "path": "folders/Sprites/Player/Death.yy",
   },
   "resourceVersion": "1.0",
   "name": "tdpiratechar_1_death_1",

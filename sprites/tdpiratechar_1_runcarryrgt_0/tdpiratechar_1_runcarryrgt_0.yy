@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"14636eca-1540-4d4c-a49a-6b4e3c1478f9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Carry",
+    "path": "folders/Sprites/Player/Carry.yy",
   },
   "resourceVersion": "1.0",
   "name": "tdpiratechar_1_runcarryrgt_0",

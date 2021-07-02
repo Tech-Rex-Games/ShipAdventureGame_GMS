@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"59138c70-a46d-41c9-9682-a324f7cbda7a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "PickUp",
+    "path": "folders/Sprites/Player/PickUp.yy",
   },
   "resourceVersion": "1.0",
   "name": "tdpiratechar_1_pickupup_0",
