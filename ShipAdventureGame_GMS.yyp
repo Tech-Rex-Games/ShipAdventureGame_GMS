@@ -225,6 +225,7 @@
     {"id":{"name":"enemy_1_run_0","path":"sprites/enemy_1_run_0/enemy_1_run_0.yy",},"order":10,},
     {"id":{"name":"tdpiratechar_1_pickuplft_0","path":"sprites/tdpiratechar_1_pickuplft_0/tdpiratechar_1_pickuplft_0.yy",},"order":67,},
     {"id":{"name":"tdpiratechar_2_idlecarryrgt_1","path":"sprites/tdpiratechar_2_idlecarryrgt_1/tdpiratechar_2_idlecarryrgt_1.yy",},"order":35,},
+    {"id":{"name":"r_openWorldMap","path":"rooms/r_openWorldMap/r_openWorldMap.yy",},"order":1,},
     {"id":{"name":"tdpiratefx_1_hitsmall_1_1","path":"sprites/tdpiratefx_1_hitsmall_1_1/tdpiratefx_1_hitsmall_1_1.yy",},"order":27,},
     {"id":{"name":"tdpiratechar_2_runlft_1","path":"sprites/tdpiratechar_2_runlft_1/tdpiratechar_2_runlft_1.yy",},"order":87,},
     {"id":{"name":"tdpiratechar_2_idlecarryrgt_3","path":"sprites/tdpiratechar_2_idlecarryrgt_3/tdpiratechar_2_idlecarryrgt_3.yy",},"order":37,},
@@ -349,6 +350,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"TestBoatArea","path":"rooms/TestBoatArea/TestBoatArea.yy",},},
+    {"roomId":{"name":"r_openWorldMap","path":"rooms/r_openWorldMap/r_openWorldMap.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
