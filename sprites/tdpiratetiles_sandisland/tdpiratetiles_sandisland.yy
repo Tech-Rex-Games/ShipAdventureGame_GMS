@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"810f6572-b07c-4f4b-b17b-1c49276e8bda","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "TileSets",
+    "path": "folders/Sprites/TileSets.yy",
   },
   "resourceVersion": "1.0",
   "name": "tdpiratetiles_sandisland",

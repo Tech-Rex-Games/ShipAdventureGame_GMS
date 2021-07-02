@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"56bac745-3ac5-4786-9949-df0ad433753c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Attack",
+    "path": "folders/Sprites/Player/Attack.yy",
   },
   "resourceVersion": "1.0",
   "name": "tdpiratechar_1_attacklft_0",

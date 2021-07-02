@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e2bb39b0-edcb-405e-9a6c-16639fa9fa24","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Attack",
+    "path": "folders/Sprites/Player/Attack.yy",
   },
   "resourceVersion": "1.0",
   "name": "tdpiratechar_1_attacksworddwn_0",
