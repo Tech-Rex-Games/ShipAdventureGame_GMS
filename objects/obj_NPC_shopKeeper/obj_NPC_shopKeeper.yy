@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "player_idleRight",
-    "path": "sprites/player_idleRight/player_idleRight.yy",
+    "name": "spr_NPC_shopKeeper",
+    "path": "sprites/spr_NPC_shopKeeper/spr_NPC_shopKeeper.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "player_idleDown",
-    "path": "sprites/player_idleDown/player_idleDown.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -26,18 +23,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"WallTest","path":"objects/WallTest/WallTest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "NPCs",
+    "path": "folders/Objects/NPCs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_NPC_shopKeeper",
   "tags": [],
   "resourceType": "GMObject",
 }

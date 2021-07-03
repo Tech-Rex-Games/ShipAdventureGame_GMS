@@ -1,4 +1,4 @@
-if distance_to_object(obj_player) <= 32 && obj_player.y > y && keyboard_check(ord("E")) && chestOpened = false {
+if distance_to_object(obj_player) <= 14 && obj_player.y > y && keyboard_check(ord("E")) && chestOpened = false {
 	chestOpened = true
 	instance_create_depth(x + 10, y + 5, -1, obj_FX_walkingDust)
 	sprite_index = spr_chestOpen
@@ -14,12 +14,12 @@ if distance_to_object(obj_player) <= 32 && obj_player.y > y && keyboard_check(or
 }
 
 //Playing Audio
-if distance_to_object(obj_player) <= 32 && obj_player.y > y && audio = true && chestOpened = false {
+if distance_to_object(obj_player) <= 14 && obj_player.y > y && audio = true && chestOpened = false {
 	audio = false
 	audio_play_sound(s_alert,1,0)
 }
 
-if distance_to_object(obj_player) > 32 && audio = false && chestOpened = false {
+if distance_to_object(obj_player) > 14 && audio = false && chestOpened = false {
 	audio = true
 	audio_play_sound(s_alertOff,1,0)
 }
