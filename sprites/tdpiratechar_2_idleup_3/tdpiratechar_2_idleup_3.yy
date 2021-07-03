@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cfae7569-6b0e-4ae8-a517-e6deb26b021d","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Swashbuckler",
     "path": "folders/Sprites/Enemies/Swashbuckler.yy",
