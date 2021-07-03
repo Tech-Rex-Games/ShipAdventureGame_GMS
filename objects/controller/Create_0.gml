@@ -1,1 +1,0 @@
-audio_play_sound(pirateBG,1,1)
