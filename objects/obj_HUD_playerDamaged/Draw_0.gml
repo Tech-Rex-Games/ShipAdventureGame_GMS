@@ -1,0 +1,1 @@
+draw_sprite_stretched(spr_HUD_playerDamaged,0,0,0,room_width,room_height)

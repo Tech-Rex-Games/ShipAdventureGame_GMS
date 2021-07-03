@@ -19,7 +19,7 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A")) && !moving) {
   sprite_index = spr_boatLeft
   target_x -= 32
   //Walking Dust Particles
-  instance_create_depth(x+10,y + choose(15,20),1,obj_FX_walkingDust)
+  instance_create_depth(x+130,y + choose(60,75),1,obj_FX_walkingDust)
 }
 if (keyboard_check(vk_right) or keyboard_check(ord("D")) && !moving) {
   moving = true
@@ -27,7 +27,7 @@ if (keyboard_check(vk_right) or keyboard_check(ord("D")) && !moving) {
   facing = 1
   sprite_index = spr_boatRight
   //Walking Dust Particles
-  instance_create_depth(x,y + choose(15,20),1,obj_FX_walkingDust)
+  instance_create_depth(x-5,y + choose(60,75),1,obj_FX_walkingDust)
 }
 if (keyboard_check(vk_up) or keyboard_check(ord("W")) && !moving) {
   moving = true
@@ -35,7 +35,7 @@ if (keyboard_check(vk_up) or keyboard_check(ord("W")) && !moving) {
   facing = 3
   sprite_index = spr_boatUp
   //Walking Dust Particles
-  instance_create_depth(x + choose(7,12),y,1,obj_FX_walkingDust)
+  instance_create_depth(x + choose(65,75),y + 130,1,obj_FX_walkingDust)
 }
 if (keyboard_check(vk_down) or keyboard_check(ord("S")) && !moving) {
   moving = true
@@ -43,5 +43,5 @@ if (keyboard_check(vk_down) or keyboard_check(ord("S")) && !moving) {
   facing = 4
   sprite_index = spr_boatDown
   //Walking Dust Particles
-  instance_create_depth(x + choose(7,12),y + 10,1,obj_FX_walkingDust)
+  instance_create_depth(x + choose(65,75),y - 5,1,obj_FX_walkingDust)
 }
