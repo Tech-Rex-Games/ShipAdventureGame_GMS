@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8f55055b-6c43-4269-b60c-3735dbb283e4","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f55055b-6c43-4269-b60c-3735dbb283e4","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"LayerId":{"name":"810f6572-b07c-4f4b-b17b-1c49276e8bda","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tdpiratetiles_sandisland","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","name":"8f55055b-6c43-4269-b60c-3735dbb283e4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eaef84ac-f18c-4738-afd3-97683995b364","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eaef84ac-f18c-4738-afd3-97683995b364","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"LayerId":{"name":"78be6b8a-8973-416e-8a94-73c895cd798c","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tdpiratetiles_sandisland","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","name":"eaef84ac-f18c-4738-afd3-97683995b364","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"tdpiratetiles_sandisland","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"31c21e8c-f7ae-4eb8-9641-7a45fdb34b37","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8f55055b-6c43-4269-b60c-3735dbb283e4","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"27ee3bd7-d293-4889-8a16-3e6fff74b109","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eaef84ac-f18c-4738-afd3-97683995b364","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"810f6572-b07c-4f4b-b17b-1c49276e8bda","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"78be6b8a-8973-416e-8a94-73c895cd798c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

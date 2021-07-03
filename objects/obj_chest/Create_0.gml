@@ -1,1 +1,2 @@
 chestOpened = false
+audio = true

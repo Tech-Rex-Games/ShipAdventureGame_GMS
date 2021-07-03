@@ -7,5 +7,5 @@ audio_play_sound(pirateBG,1,1)
 audio_play_sound(s_seagullsAmbience,1,1)
 
 //Setting Up Lives + Money
-Gold = 0
+Gold = 100
 Lives = 6

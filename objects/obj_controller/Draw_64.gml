@@ -25,4 +25,10 @@ else if Lives = 0 {
 
 //Gold
 draw_sprite_stretched(spr_coin,2,view_xport[0] + 20, view_yport[0] + 80, 64,64)
-draw_text(view_xport[0] + 80, view_yport[0] + 92, Gold)
+draw_text(view_xport[0] + 80, view_yport[0] + 96, Gold)
+
+//Controls
+draw_text(view_xport[0] + 40, view_yport[0] + 950, "Controls")
+draw_set_font(f_small)
+draw_text(view_xport[0] + 40, view_yport[0] + 1000, "Left Mouse - Sword Attack")
+draw_text(view_xport[0] + 40, view_yport[0] + 1025, "Escape - Exit")

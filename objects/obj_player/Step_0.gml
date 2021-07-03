@@ -58,8 +58,9 @@ if (keyboard_check(vk_down) or keyboard_check(ord("S")) && !moving) {
 }
 
 //Sword Swinging
-if mouse_check_button_pressed(mb_left) {
+if mouse_check_button_pressed(mb_left) && canSwing = true {
 	audio_play_sound(s_swing,1,0)
+	canSwing = false
 	if facing = 1 {
 		sprite_index = spr_playerSwingRight
 		swinging = true
@@ -80,5 +81,5 @@ if mouse_check_button_pressed(mb_left) {
 		swinging = true
 		instance_create_depth(x + 30, y + 18, -1, obj_FX_weaponSlash)
 	}
-alarm[0] = 10
+alarm[0] = 30
 }

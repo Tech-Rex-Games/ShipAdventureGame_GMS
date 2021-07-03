@@ -1,1 +1,2 @@
 swinging = false
+canSwing = true

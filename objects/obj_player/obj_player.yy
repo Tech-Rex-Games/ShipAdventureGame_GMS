@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "player_idleDown",
+    "path": "sprites/player_idleDown/player_idleDown.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

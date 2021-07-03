@@ -8,6 +8,7 @@ moving = false
 depth = -1
 image_speed = .3
 swinging = false
+canSwing = true
 
 //Tell Which Direction the Player is Facing to Display Correct Sprite
 facing = 1
