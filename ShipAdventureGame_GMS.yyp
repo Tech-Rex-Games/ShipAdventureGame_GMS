@@ -79,6 +79,7 @@
     {"id":{"name":"tdpiratefx_1_hitsmall_2_3","path":"sprites/tdpiratefx_1_hitsmall_2_3/tdpiratefx_1_hitsmall_2_3.yy",},"order":33,},
     {"id":{"name":"player_idleDown","path":"sprites/player_idleDown/player_idleDown.yy",},"order":3,},
     {"id":{"name":"spr_playerSwingUp","path":"sprites/spr_playerSwingUp/spr_playerSwingUp.yy",},"order":21,},
+    {"id":{"name":"Sprite266","path":"sprites/Sprite266/Sprite266.yy",},"order":16,},
     {"id":{"name":"tdpiratechar_2_attacklft_1","path":"sprites/tdpiratechar_2_attacklft_1/tdpiratechar_2_attacklft_1.yy",},"order":4,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"enemy_0_death_2","path":"sprites/enemy_0_death_2/enemy_0_death_2.yy",},"order":2,},
@@ -201,6 +202,7 @@
     {"id":{"name":"spr_playerSwingRight","path":"sprites/spr_playerSwingRight/spr_playerSwingRight.yy",},"order":23,},
     {"id":{"name":"tdpiratechar_2_runlft_1","path":"sprites/tdpiratechar_2_runlft_1/tdpiratechar_2_runlft_1.yy",},"order":87,},
     {"id":{"name":"tdpiratechar_2_idlecarryrgt_3","path":"sprites/tdpiratechar_2_idlecarryrgt_3/tdpiratechar_2_idlecarryrgt_3.yy",},"order":37,},
+    {"id":{"name":"Sprite265","path":"sprites/Sprite265/Sprite265.yy",},"order":15,},
     {"id":{"name":"obj_playerShadow","path":"objects/obj_playerShadow/obj_playerShadow.yy",},"order":5,},
     {"id":{"name":"tdpiratechar_1_pickuprgt_1","path":"sprites/tdpiratechar_1_pickuprgt_1/tdpiratechar_1_pickuprgt_1.yy",},"order":5,},
     {"id":{"name":"tdpiratetiles_plankbridge","path":"sprites/tdpiratetiles_plankbridge/tdpiratetiles_plankbridge.yy",},"order":0,},
@@ -281,6 +283,7 @@
     {"id":{"name":"enemy_0_tentaidle_3","path":"sprites/enemy_0_tentaidle_3/enemy_0_tentaidle_3.yy",},"order":37,},
     {"id":{"name":"tdpiratetiles_sandisland","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"order":1,},
     {"id":{"name":"tdpiratechar_2_attackrgt_0","path":"sprites/tdpiratechar_2_attackrgt_0/tdpiratechar_2_attackrgt_0.yy",},"order":6,},
+    {"id":{"name":"Sprite267","path":"sprites/Sprite267/Sprite267.yy",},"order":17,},
     {"id":{"name":"tdpiratechar_1_runcarrylft_2","path":"sprites/tdpiratechar_1_runcarrylft_2/tdpiratechar_1_runcarrylft_2.yy",},"order":6,},
     {"id":{"name":"tdpirateobj_bone_1","path":"sprites/tdpirateobj_bone_1/tdpirateobj_bone_1.yy",},"order":6,},
     {"id":{"name":"tdpiratechar_2_attackswordrgt_1","path":"sprites/tdpiratechar_2_attackswordrgt_1/tdpiratechar_2_attackswordrgt_1.yy",},"order":16,},
@@ -289,7 +292,6 @@
     {"id":{"name":"tdpirateobj_boxsmall_1","path":"sprites/tdpirateobj_boxsmall_1/tdpirateobj_boxsmall_1.yy",},"order":5,},
     {"id":{"name":"tdpiratechar_2_attackswordup_2","path":"sprites/tdpiratechar_2_attackswordup_2/tdpiratechar_2_attackswordup_2.yy",},"order":20,},
     {"id":{"name":"tdpiratefx_0_explosionbig_0_0","path":"sprites/tdpiratefx_0_explosionbig_0_0/tdpiratefx_0_explosionbig_0_0.yy",},"order":0,},
-    {"id":{"name":"TestBoatArea","path":"rooms/TestBoatArea/TestBoatArea.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -307,8 +309,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"MapRoomTesting","path":"rooms/MapRoomTesting/MapRoomTesting.yy",},},
     {"roomId":{"name":"r_MattTestWorld","path":"rooms/r_MattTestWorld/r_MattTestWorld.yy",},},
-    {"roomId":{"name":"TestBoatArea","path":"rooms/TestBoatArea/TestBoatArea.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
