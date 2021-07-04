@@ -1,6 +1,6 @@
 if distance_to_object(obj_player) <= 14 && keyboard_check(ord("E")) && xOpened = false {
 	xOpened = true
-	instance_create_depth(x + 10, y + 5, -1, obj_FX_walkingDust)
+	instance_create_depth(x , y, -1, obj_FX_bigPoof)
 	alarm[0] = 30
 	sprite_index = spr_dugHole
 	audio_play_sound(s_dig,1,0)

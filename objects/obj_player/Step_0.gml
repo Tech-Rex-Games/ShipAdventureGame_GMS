@@ -64,22 +64,22 @@ if mouse_check_button_pressed(mb_left) && canSwing = true {
 	if facing = 1 {
 		sprite_index = spr_playerSwingRight
 		swinging = true
-		instance_create_depth(x + 20, y, -1, obj_FX_weaponSlash)
+		instance_create_depth(x + 25, y, -1, obj_FX_weaponSlash)
 	}
 	else if facing = 2 {
 		sprite_index = spr_playerSwingLeft
 		swinging = true
-		instance_create_depth(x + 15, y + 30, -1, obj_FX_weaponSlash)
+		instance_create_depth(x + 10, y + 30, -1, obj_FX_weaponSlash)
 	}
 	else if facing = 3 {
 		sprite_index = spr_playerSwingUp
 		swinging = true
-		instance_create_depth(x, y + 15, -1, obj_FX_weaponSlash)
+		instance_create_depth(x, y + 10, -1, obj_FX_weaponSlash)
 	}
 	else {
 		sprite_index = spr_playerSwingDown
 		swinging = true
-		instance_create_depth(x + 30, y + 18, -1, obj_FX_weaponSlash)
+		instance_create_depth(x + 30, y + 23, -1, obj_FX_weaponSlash)
 	}
 alarm[0] = 30
 }
