@@ -1,11 +1,19 @@
-if distance_to_object(obj_player) <= 1 && E_HUD_exists = false {
-	instance_create_depth(x,y-24,-2,obj_HUD_E)
-	E_HUD_exists = true
+if distance_to_object(obj_player) <= 14 && keyboard_check(ord("E")) && xOpened = false {
+	xOpened = true
+	instance_create_depth(x + 10, y + 5, -1, obj_FX_walkingDust)
+	alarm[0] = 30
+	sprite_index = spr_dugHole
+	audio_play_sound(s_dig,1,0)
+}
+
+
+//Playing Audio
+if distance_to_object(obj_player) <= 8 && audio = true && xOpened = false {
+	audio = false
 	audio_play_sound(s_alert,1,0)
 }
 
-if distance_to_object(obj_player) > 10 && instance_exists(obj_HUD_E) {
-	instance_destroy(obj_HUD_E,1)
-	E_HUD_exists = false
+if distance_to_object(obj_player) > 8 && audio = false && xOpened = false {
+	audio = true
 	audio_play_sound(s_alertOff,1,0)
 }

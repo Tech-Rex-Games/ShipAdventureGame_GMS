@@ -83,3 +83,8 @@ if mouse_check_button_pressed(mb_left) && canSwing = true {
 	}
 alarm[0] = 30
 }
+
+//Check if I am Dead
+if obj_controller.Lives = 0 {
+	sprite_index = spr_playerDead
+}

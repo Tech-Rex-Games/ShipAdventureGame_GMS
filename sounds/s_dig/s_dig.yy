@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.48,
+  "volume": 0.81,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "s_alert.wav",
-  "duration": 0.081168,
+  "soundFile": "s_dig.wav",
+  "duration": 0.737083,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_alert",
+  "name": "s_dig",
   "tags": [],
   "resourceType": "GMSound",
 }
