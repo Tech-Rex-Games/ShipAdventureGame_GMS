@@ -9,3 +9,6 @@ audio_play_sound(s_seagullsAmbience,1,1)
 //Setting Up Lives + Money
 Gold = 100
 Lives = 6
+
+//Custom Fonts
+customWhite = make_color_rgb(251,245,208)
