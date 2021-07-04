@@ -1,0 +1,1 @@
+draw_sprite_stretched(spr_HUD_hotbar,0,view_xport[0] + 815, view_yport[0] + 980,366,78)
