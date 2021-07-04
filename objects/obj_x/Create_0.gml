@@ -1,1 +1,2 @@
-E_HUD_exists = false
+xOpened = false
+audio = true

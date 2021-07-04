@@ -1,0 +1,1 @@
+instance_create_depth(x, y - 32, -1, obj_chest)
