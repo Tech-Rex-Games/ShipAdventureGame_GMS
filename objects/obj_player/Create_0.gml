@@ -12,3 +12,9 @@ canSwing = true
 
 //Tell Which Direction the Player is Facing to Display Correct Sprite
 facing = 1
+
+drawMoneyText = false
+drawLootText = false
+
+goldCounter = 0
+loot = ""

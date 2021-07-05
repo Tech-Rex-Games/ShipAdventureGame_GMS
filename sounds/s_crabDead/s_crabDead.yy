@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.84,
+  "volume": 0.86,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "s_chestOpen.wav",
-  "duration": 0.476271,
+  "soundFile": "s_crabDead.wav",
+  "duration": 1.213345,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_chestOpen",
+  "name": "s_crabDead",
   "tags": [],
   "resourceType": "GMSound",
 }

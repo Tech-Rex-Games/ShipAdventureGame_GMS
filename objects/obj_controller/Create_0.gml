@@ -1,3 +1,7 @@
+//Settings
+window_set_cursor(cr_none);
+cursor_sprite = spr_HUD_cursor
+
 //Setting Map Boat Location
 mapBoatX = 670
 mapBoatY = 385
