@@ -24,37 +24,48 @@ if (target_x == x && target_y == y ) {
 	}
 }
 //Smooth Movement
-if (keyboard_check(vk_left) or keyboard_check(ord("A")) && !moving) {
-  moving = true
+if (keyboard_check(vk_left) or keyboard_check(ord("A"))) {
   facing = 2
   sprite_index = player_runLeft
-  target_x -= 32
-  //Walking Dust Particles
-  instance_create_depth(x+10,y + choose(15,20),1,obj_FX_walkingDust)
+  if !moving && place_free(x - 32, y) {
+	moving = true
+	target_x -= 32
+	//Walking Dust Particles
+	instance_create_depth(x+10,y + choose(15,20),1,obj_FX_walkingDust)
+  }
 }
-if (keyboard_check(vk_right) or keyboard_check(ord("D")) && !moving) {
-  moving = true
-  target_x += 32
-  facing = 1
+
+if (keyboard_check(vk_right) or keyboard_check(ord("D"))){
   sprite_index = player_runRight
-  //Walking Dust Particles
-  instance_create_depth(x,y + choose(15,20),1,obj_FX_walkingDust)
+  facing = 1
+  if !moving && place_free(x + 32, y) {
+	moving = true
+	target_x += 32
+	//Walking Dust Particles
+	instance_create_depth(x,y + choose(15,20),1,obj_FX_walkingDust)
+  }
 }
-if (keyboard_check(vk_up) or keyboard_check(ord("W")) && !moving) {
-  moving = true
-  target_y -= 32
+
+if (keyboard_check(vk_up) or keyboard_check(ord("W"))) {
   facing = 3
-  sprite_index = player_runUp
-  //Walking Dust Particles
-  instance_create_depth(x + choose(7,12),y,1,obj_FX_walkingDust)
+sprite_index = player_runUp
+  if !moving && place_free(x, y - 32) {
+	moving = true
+	target_y -= 32
+	//Walking Dust Particles
+	instance_create_depth(x + choose(7,12),y,1,obj_FX_walkingDust)
+  }
 }
-if (keyboard_check(vk_down) or keyboard_check(ord("S")) && !moving) {
-  moving = true
-  target_y += 32
-  facing = 4
+
+if (keyboard_check(vk_down) or keyboard_check(ord("S"))) {
   sprite_index = player_runDown
-  //Walking Dust Particles
-  instance_create_depth(x + choose(7,12),y + 10,1,obj_FX_walkingDust)
+  facing = 4
+  if !moving && place_free(x, y + 32) {
+	moving = true
+	target_y += 32
+	//Walking Dust Particles
+	instance_create_depth(x + choose(7,12),y + 10,1,obj_FX_walkingDust)
+  }
 }
 
 //Sword Swinging
@@ -82,9 +93,4 @@ if mouse_check_button_pressed(mb_left) && canSwing = true {
 		instance_create_depth(x + 30, y + 23, -1, obj_FX_weaponSlash)
 	}
 alarm[0] = 30
-}
-
-//Check if I am Dead
-if obj_controller.Lives = 0 {
-	sprite_index = spr_playerDead
 }

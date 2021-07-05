@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.81,
+  "volume": 0.62,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_lostLife.wav",
-  "duration": 1.374252,
+  "duration": 0.247268,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,5 +1,6 @@
 draw_set_color(customWhite)
 draw_set_font(f_main)
+draw_set_halign(fa_left)
 
 //Lives
 if Lives = 6 {
@@ -26,7 +27,7 @@ else if Lives = 0 {
 }
 
 //Gold
-draw_sprite_stretched(spr_coin,2,view_xport[0] + 20, view_yport[0] + 80, 64,64)
+draw_sprite_stretched(spr_coin,2,view_xport[0] - 12, view_yport[0] + 48, 128,128)
 draw_text(view_xport[0] + 80, view_yport[0] + 96, Gold)
 
 //Controls Text BG
