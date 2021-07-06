@@ -1,0 +1,2 @@
+xOpened = false
+audio = true

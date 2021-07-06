@@ -36,5 +36,5 @@ draw_sprite_stretched(spr_HUD_textBG,0, view_xport[0] + 35, view_yport[0] + 880,
 //Controls
 draw_text(view_xport[0] + 70, view_yport[0] + 920, "Controls")
 draw_set_font(f_small)
-draw_text(view_xport[0] + 70, view_yport[0] + 970, "LMB - Sword Attack")
+draw_text(view_xport[0] + 70, view_yport[0] + 970, "Click - Sword Attack")
 draw_text(view_xport[0] + 70, view_yport[0] + 1000, "Escape - Exit")
