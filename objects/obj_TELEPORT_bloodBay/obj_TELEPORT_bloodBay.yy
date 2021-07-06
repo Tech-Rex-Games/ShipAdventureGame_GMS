@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_TELEPORT_island1",
+  "name": "obj_TELEPORT_bloodBay",
   "tags": [],
   "resourceType": "GMObject",
 }
