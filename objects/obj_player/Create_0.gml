@@ -1,6 +1,5 @@
-//This is jakes first test character. going to add basic controls for testing purposes. 
-
 //Initialize the player
+lastFrame = floor(image_index)
 
 target_x = x
 target_y = y
