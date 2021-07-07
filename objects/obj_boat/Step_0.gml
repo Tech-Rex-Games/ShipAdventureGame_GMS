@@ -45,3 +45,8 @@ if (keyboard_check(vk_down) or keyboard_check(ord("S")) && !moving) {
   //Walking Dust Particles
   instance_create_depth(x + choose(65,75),y - 5,1,obj_FX_walkingDust)
 }
+
+//Sailing Sound FX
+if moving && !audio_is_playing(s_sailing) {
+	audio_play_sound(s_sailing,0,0)
+}

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.28,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "s_seagullsAmbience.wav",
-  "duration": 63.1338654,
+  "soundFile": "s_footstep.wav",
+  "duration": 0.177604,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_seagullsAmbience",
+  "name": "s_footstep",
   "tags": [],
   "resourceType": "GMSound",
 }

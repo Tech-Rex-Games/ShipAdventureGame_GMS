@@ -33,6 +33,13 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A"))) {
 	//Walking Dust Particles
 	instance_create_depth(x+10,y + choose(15,20),1,obj_FX_walkingDust)
   }
+	//Footstep Sound
+	if ( floor(image_index) == 0 && floor(image_index) != lastFrame ) {
+    audio_play_sound(s_footstep, 1, 0 )
+    }
+	if ( floor(image_index) == 2 && floor(image_index) != lastFrame ) {
+    audio_play_sound(s_footstep, 1, 0 )
+    }
 }
 
 if (keyboard_check(vk_right) or keyboard_check(ord("D"))){
@@ -44,6 +51,13 @@ if (keyboard_check(vk_right) or keyboard_check(ord("D"))){
 	//Walking Dust Particles
 	instance_create_depth(x,y + choose(15,20),1,obj_FX_walkingDust)
   }
+  //Footstep Sound
+	if ( floor(image_index) == 0 && floor(image_index) != lastFrame ) {
+    audio_play_sound(s_footstep, 1, 0 )
+    }
+	if ( floor(image_index) == 2 && floor(image_index) != lastFrame ) {
+    audio_play_sound(s_footstep, 1, 0 )
+    }
 }
 
 if (keyboard_check(vk_up) or keyboard_check(ord("W"))) {
@@ -55,6 +69,13 @@ sprite_index = player_runUp
 	//Walking Dust Particles
 	instance_create_depth(x + choose(7,12),y,1,obj_FX_walkingDust)
   }
+  //Footstep Sound
+	if ( floor(image_index) == 0 && floor(image_index) != lastFrame ) {
+    audio_play_sound(s_footstep, 1, 0 )
+    }
+	if ( floor(image_index) == 2 && floor(image_index) != lastFrame ) {
+    audio_play_sound(s_footstep, 1, 0 )
+    }
 }
 
 if (keyboard_check(vk_down) or keyboard_check(ord("S"))) {
@@ -66,7 +87,16 @@ if (keyboard_check(vk_down) or keyboard_check(ord("S"))) {
 	//Walking Dust Particles
 	instance_create_depth(x + choose(7,12),y + 10,1,obj_FX_walkingDust)
   }
+  //Footstep Sound
+	if ( floor(image_index) == 0 && floor(image_index) != lastFrame ) {
+    audio_play_sound(s_footstep, 1, 0 )
+    }
+	if ( floor(image_index) == 2 && floor(image_index) != lastFrame ) {
+    audio_play_sound(s_footstep, 1, 0 )
+    }
 }
+
+lastFrame = floor(image_index)
 
 //Sword Swinging
 if mouse_check_button_pressed(mb_left) && canSwing = true {
