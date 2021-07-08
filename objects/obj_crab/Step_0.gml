@@ -15,6 +15,5 @@ if distance_to_object(obj_player) <= 1 && canDamage = true{
 	canDamage = false
 	obj_controller.Lives -= 1
 	instance_create_depth(0,0,-10,obj_HUD_playerDamaged)
-	instance_create_depth(obj_player.x + 8,obj_player.y + 10,-10,obj_FX_playerDamaged)
 	alarm[1] = 90
 }
