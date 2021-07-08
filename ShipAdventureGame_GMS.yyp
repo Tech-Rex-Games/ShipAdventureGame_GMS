@@ -296,7 +296,6 @@
     {"id":{"name":"tdpiratefx_shadow_1","path":"sprites/tdpiratefx_shadow_1/tdpiratefx_shadow_1.yy",},"order":41,},
     {"id":{"name":"enemy_0_death_1","path":"sprites/enemy_0_death_1/enemy_0_death_1.yy",},"order":1,},
     {"id":{"name":"s_crabDead","path":"sounds/s_crabDead/s_crabDead.yy",},"order":14,},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"tdpiratechar_2_pickuprgt_1","path":"sprites/tdpiratechar_2_pickuprgt_1/tdpiratechar_2_pickuprgt_1.yy",},"order":63,},
     {"id":{"name":"spr_HUD_playerDamaged","path":"sprites/spr_HUD_playerDamaged/spr_HUD_playerDamaged.yy",},"order":2,},
     {"id":{"name":"s_chestOpen","path":"sounds/s_chestOpen/s_chestOpen.yy",},"order":6,},
