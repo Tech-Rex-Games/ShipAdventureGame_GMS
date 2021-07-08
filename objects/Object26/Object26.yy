@@ -4,7 +4,7 @@
     "path": "sprites/wall/wall.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Collision Blocks",
+    "path": "folders/Objects/Collision Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "WallTest",
+  "name": "Object26",
   "tags": [],
   "resourceType": "GMObject",
 }
