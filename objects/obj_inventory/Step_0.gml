@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-moving = false
+if (keyboard_check_pressed(ord("I"))) { show_inventory = !show_inventory; }
