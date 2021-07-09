@@ -291,6 +291,7 @@
     {"id":{"name":"tdpiratechar_2_runcarrydwn_1","path":"sprites/tdpiratechar_2_runcarrydwn_1/tdpiratechar_2_runcarrydwn_1.yy",},"order":67,},
     {"id":{"name":"spr_numbersFont","path":"sprites/spr_numbersFont/spr_numbersFont.yy",},"order":3,},
     {"id":{"name":"tdpiratechar_2_attacklft_0","path":"sprites/tdpiratechar_2_attacklft_0/tdpiratechar_2_attacklft_0.yy",},"order":3,},
+    {"id":{"name":"r_tutorialIsland","path":"rooms/r_tutorialIsland/r_tutorialIsland.yy",},"order":5,},
     {"id":{"name":"tdpiratechar_2_pickuplft_1","path":"sprites/tdpiratechar_2_pickuplft_1/tdpiratechar_2_pickuplft_1.yy",},"order":61,},
     {"id":{"name":"tdpiratechar_2_runcarrydwn_0","path":"sprites/tdpiratechar_2_runcarrydwn_0/tdpiratechar_2_runcarrydwn_0.yy",},"order":66,},
     {"id":{"name":"tdpiratechar_1_runcarrydwn_3","path":"sprites/tdpiratechar_1_runcarrydwn_3/tdpiratechar_1_runcarrydwn_3.yy",},"order":3,},
@@ -362,6 +363,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"MapRoomTesting","path":"rooms/MapRoomTesting/MapRoomTesting.yy",},},
+    {"roomId":{"name":"r_tutorialIsland","path":"rooms/r_tutorialIsland/r_tutorialIsland.yy",},},
     {"roomId":{"name":"r_MattTestWorld","path":"rooms/r_MattTestWorld/r_MattTestWorld.yy",},},
     {"roomId":{"name":"r_playerDead","path":"rooms/r_playerDead/r_playerDead.yy",},},
     {"roomId":{"name":"r_crabIsle","path":"rooms/r_crabIsle/r_crabIsle.yy",},},
