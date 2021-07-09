@@ -1,5 +1,5 @@
 depth = -10
-scale = 2
+scale = 3
 show_inventory = false;
 
 gui_width = display_get_gui_width();
@@ -29,5 +29,5 @@ ds_player_info[# 0, 3] = "Name";
 ds_player_info[# 1, 0] = 1;
 ds_player_info[# 1, 1] = 2;
 ds_player_info[# 1, 2] = 69;
-ds_player_info[# 1, 3] = "Player";
+ds_player_info[# 1, 3] = "Sea Dog";
 //Down the road this ds needs to be change to the varable "name" once we get that setup
