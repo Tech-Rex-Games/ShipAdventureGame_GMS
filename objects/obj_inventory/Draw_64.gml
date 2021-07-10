@@ -14,3 +14,4 @@ var c = make_color_rgb(251,245,208)
 draw_text_color(info_x, info_y, info_grid[# 0, 3] + ":" + info_grid[# 1, 3], c, c, c, c, 1);
 
 // Drawn gold value
+draw_text_color(info_x + (192*scale) + ((15+18)*scale), info_y, string(info_grid[# 1, 0]), c, c, c, c, 1);
