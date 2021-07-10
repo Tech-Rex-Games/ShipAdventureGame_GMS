@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "tdpirateobj_rock_0",
-    "path": "sprites/tdpirateobj_rock_0/tdpirateobj_rock_0.yy",
+    "name": "spr_palmTree",
+    "path": "sprites/spr_palmTree/spr_palmTree.yy",
   },
   "solid": true,
   "visible": true,
@@ -21,6 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -30,7 +31,7 @@
     "path": "folders/Objects/Decor.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rockBig",
+  "name": "obj_palmTree",
   "tags": [],
   "resourceType": "GMObject",
 }

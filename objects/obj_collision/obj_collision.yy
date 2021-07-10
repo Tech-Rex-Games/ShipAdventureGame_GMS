@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "tdpirateobj_rock_0",
-    "path": "sprites/tdpirateobj_rock_0/tdpirateobj_rock_0.yy",
+    "name": "spr_collision",
+    "path": "sprites/spr_collision/spr_collision.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Decor",
-    "path": "folders/Objects/Decor.yy",
+    "name": "Collision Blocks",
+    "path": "folders/Objects/Collision Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rockBig",
+  "name": "obj_collision",
   "tags": [],
   "resourceType": "GMObject",
 }
