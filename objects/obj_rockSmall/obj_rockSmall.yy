@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "tdpirateobj_rock_0",
-    "path": "sprites/tdpirateobj_rock_0/tdpirateobj_rock_0.yy",
+    "name": "tdpirateobj_rock_1",
+    "path": "sprites/tdpirateobj_rock_1/tdpirateobj_rock_1.yy",
   },
   "solid": true,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/Decor.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rockBig",
+  "name": "obj_rockSmall",
   "tags": [],
   "resourceType": "GMObject",
 }
