@@ -17,3 +17,8 @@ if distance_to_object(obj_player) > 8 && audio = false && xOpened = false {
 	audio = true
 	audio_play_sound(s_alertOff,1,0)
 }
+
+//Changing Depth
+if !place_meeting(x,y,obj_tallGrass) && grassCovered = true {
+	depth = -3
+}
