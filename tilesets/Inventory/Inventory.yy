@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_inventory_items",
-    "path": "sprites/spr_inventory_items/spr_inventory_items.yy",
-  },
+  "spriteId": null,
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,
