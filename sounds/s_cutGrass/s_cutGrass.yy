@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.63,
+  "volume": 0.81,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_cutGrass.wav",
-  "duration": 0.655998,
+  "duration": 0.132211,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

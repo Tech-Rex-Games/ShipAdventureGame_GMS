@@ -15,10 +15,10 @@ inv_UI_width = 288;
 inv_UI_hight = 192;
 
 spr_inv_ui = spr_inventory_UI;
-spr_inv_items = spr_inventory_items;
+//spr_inv_items = spr_inventory_items;
 
-spr_inv_items_columns = sprite_get_width(spr_inv_items)/cell_size;
-spr_inv_items_rows = sprite_get_hight(spr_inv_items)/cell_size;
+//spr_inv_items_columns = sprite_get_width(spr_inv_items)/cell_size;
+//spr_inv_items_rows = sprite_get_hight(spr_inv_items)/cell_size;
 
 inv_ui_x = (gui_width * .5) - (inv_UI_width * .5 * scale);
 inv_ui_y = (gui_hight * .5) - (inv_UI_hight * .5 * scale);
@@ -60,4 +60,4 @@ enum items {
 	height		= 17,
 }
 
-ds_inventory[# 0, 0] = item.carrot;
+//ds_inventory[# 0, 0] = item.carrot;
