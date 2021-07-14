@@ -4,3 +4,4 @@ audio = true
 instance_create_depth(x , y, -1, obj_FX_bigPoof)
 sprite_index = spr_dugLadder
 drawText = true
+canEnter = true

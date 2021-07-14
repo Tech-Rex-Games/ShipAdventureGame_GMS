@@ -218,7 +218,7 @@
     {"name":"inst_4F657BFB","path":"rooms/MapRoomTesting/MapRoomTesting.yy",},
     {"name":"inst_26617460","path":"rooms/MapRoomTesting/MapRoomTesting.yy",},
     {"name":"inst_6C8CAF9","path":"rooms/MapRoomTesting/MapRoomTesting.yy",},
-    {"name":"inst_288E7B02","path":"rooms/MapRoomTesting/MapRoomTesting.yy",},
+    {"name":"MapRoomTesting","path":"rooms/MapRoomTesting/MapRoomTesting.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

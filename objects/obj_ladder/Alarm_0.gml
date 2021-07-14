@@ -1,0 +1,2 @@
+drawText = false
+canEnter = true
