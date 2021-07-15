@@ -2,7 +2,7 @@ draw_set_color(customWhite)
 draw_set_font(f_main)
 draw_set_halign(fa_left)
 
-if room != MapRoomTesting {
+if room != r_map {
 
 //Lives
 if Lives = 6 {
