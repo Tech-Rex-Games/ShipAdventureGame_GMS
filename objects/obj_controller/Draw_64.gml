@@ -42,10 +42,3 @@ draw_text(view_xport[0] + 70, view_yport[0] + 970, "Click - Sword Attack")
 draw_text(view_xport[0] + 70, view_yport[0] + 1000, "Escape - Exit")
 
 }
-
-else {
-	
-//Playtesting Header Text (Remove if Needed)
-	draw_set_font(f_huge)
-	draw_text(view_xport[0] + 200, view_yport[0] + 96, "Press 'T' to teleport to the Tutorial Island")
-}
