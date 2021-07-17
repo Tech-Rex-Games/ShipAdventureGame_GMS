@@ -18,6 +18,7 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A")) && !moving) {
   facing = 2
   sprite_index = spr_boatLeft
   target_x -= 32
+  lastDirection = 2
   //Walking Dust Particles
   instance_create_depth(x+130,y + choose(60,75),1,obj_FX_walkingDust)
 }
@@ -27,6 +28,7 @@ if (keyboard_check(vk_right) or keyboard_check(ord("D")) && !moving) {
   facing = 1
   sprite_index = spr_boatRight
   //Walking Dust Particles
+  lastDirection = 1
   instance_create_depth(x-5,y + choose(60,75),1,obj_FX_walkingDust)
 }
 if (keyboard_check(vk_up) or keyboard_check(ord("W")) && !moving) {

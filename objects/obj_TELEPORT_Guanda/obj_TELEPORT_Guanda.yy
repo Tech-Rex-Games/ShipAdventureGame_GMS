@@ -31,7 +31,7 @@
     "path": "folders/Objects/Interactables.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_TELEPORT_bloodBay",
+  "name": "obj_TELEPORT_Guanda",
   "tags": [],
   "resourceType": "GMObject",
 }
