@@ -124,3 +124,9 @@ if mouse_check_button_pressed(mb_left) && canSwing = true {
 	}
 alarm[0] = 30
 }
+
+//Player Dead
+if obj_controller.Lives <= 0 {
+	audio_play_sound(s_woosh,0,0)
+	room_goto(r_playerDead)
+}
