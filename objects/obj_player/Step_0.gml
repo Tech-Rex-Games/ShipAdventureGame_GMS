@@ -99,7 +99,7 @@ if (keyboard_check(vk_down) or keyboard_check(ord("S"))) {
 lastFrame = floor(image_index)
 
 //Sword Swinging
-if mouse_check_button_pressed(mb_left) && canSwing = true {
+if mouse_check_button_pressed(mb_left) && canSwing = true && equipped = 1 {
 	audio_play_sound(s_swing,1,0)
 	canSwing = false
 	if facing = 1 {
@@ -129,4 +129,15 @@ alarm[0] = 30
 if obj_controller.Lives <= 0 {
 	audio_play_sound(s_woosh,0,0)
 	room_goto(r_playerDead)
+}
+
+//Switching Equipped Items
+if mouse_wheel_up(){
+	equipped = 2
+	audio_play_sound(s_swap,0,0)
+}
+
+if mouse_wheel_down(){
+	equipped = 1
+	audio_play_sound(s_swap,0,0)
 }

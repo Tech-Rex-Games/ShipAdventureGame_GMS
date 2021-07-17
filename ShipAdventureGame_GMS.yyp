@@ -29,6 +29,7 @@
     {"id":{"name":"item_int","path":"scripts/item_int/item_int.yy",},"order":2,},
     {"id":{"name":"obj_FX_bigPoof","path":"objects/obj_FX_bigPoof/obj_FX_bigPoof.yy",},"order":4,},
     {"id":{"name":"tdpiratechar_2_runcarryrgt_1","path":"sprites/tdpiratechar_2_runcarryrgt_1/tdpiratechar_2_runcarryrgt_1.yy",},"order":75,},
+    {"id":{"name":"s_swap","path":"sounds/s_swap/s_swap.yy",},"order":21,},
     {"id":{"name":"enemy_0_heademerge_0","path":"sprites/enemy_0_heademerge_0/enemy_0_heademerge_0.yy",},"order":9,},
     {"id":{"name":"spr_TS_waves","path":"sprites/spr_TS_waves/spr_TS_waves.yy",},"order":3,},
     {"id":{"name":"f_extraSmall","path":"fonts/f_extraSmall/f_extraSmall.yy",},"order":3,},

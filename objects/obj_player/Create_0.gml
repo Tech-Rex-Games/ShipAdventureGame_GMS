@@ -4,7 +4,7 @@ lastFrame = floor(image_index)
 target_x = x
 target_y = y
 moving = false
-depth = -1
+depth = -99
 image_speed = .3
 swinging = false
 canSwing = true
@@ -17,3 +17,6 @@ drawLootText = false
 
 goldCounter = 0
 loot = ""
+
+//Equipped Weapon/Tool
+equipped = 1

@@ -6,7 +6,7 @@ if distance_to_object(obj_player) <= 64 && seenPlayer = false {
 }
 
 if seenPlayer = true && startDeath = false {
-	move_towards_point(obj_player.x,obj_player.y,.3)
+	mp_potential_step(obj_player.x,obj_player.y,.3,solid)
 }
 
 //Damaging the Player
