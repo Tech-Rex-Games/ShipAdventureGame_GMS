@@ -1,12 +1,12 @@
 function item_int() {
 	global.item_id = ds_map_create();
 
-	item_add(0,0,"Empty Big Bottle") //Title
+	item_add(0,0,"Crab Leg") //Title
 	item_add(0,1,16) //Max Stack
-	item_add(0,2,spr_ItemIcon_BigBottle) //Sprite
+	item_add(0,2,spr_LOOT_crabLeg) //Sprite
 	item_add(0,3,false) //Does have effect?
 	item_add(0,4,"")  //If yes, put script here on string, if not, just put ""
-	item_add(0,5,"A bottle to refill") //Description
+	item_add(0,5,"A raw crab leg") //Description
 
 	item_add(1,0,"Empty Bottle")
 	item_add(1,1,16)
