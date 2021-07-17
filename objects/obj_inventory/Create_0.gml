@@ -1,6 +1,11 @@
 // Initiate the item list
 item_int();
 
+//Display GUI
+show = false
+view_midw = surface_get_width(application_surface)/2;
+view_midh  = surface_get_height(application_surface)/2;
+
 //Then put here global inventory init, slot width and slot height:
 
 inventory_int(4,4);

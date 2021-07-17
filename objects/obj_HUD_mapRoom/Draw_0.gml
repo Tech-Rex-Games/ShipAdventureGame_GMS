@@ -1,6 +1,6 @@
 draw_set_font(f_pirate)
 draw_set_color(customWhite)
 draw_text(1920,230, "Blood Bay")
-draw_text(140,170, "Royal Palm")
+draw_text(150,190, "Royal Palm")
 draw_set_font(f_pirateSmall)
 draw_text(660,865, "Crab Isle")
