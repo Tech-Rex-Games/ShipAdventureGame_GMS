@@ -473,7 +473,7 @@
     {"id":{"name":"spr_FX_playerDamaged","path":"sprites/spr_FX_playerDamaged/spr_FX_playerDamaged.yy",},"order":45,},
     {"id":{"name":"r_inventoryPluginTesting","path":"rooms/r_inventoryPluginTesting/r_inventoryPluginTesting.yy",},"order":6,},
     {"id":{"name":"spr_ItemIcon_LegMeatCooked","path":"sprites/spr_ItemIcon_LegMeatCooked/spr_ItemIcon_LegMeatCooked.yy",},"order":30,},
-    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":8,},
+    {"id":{"name":"r_textBoxSystem","path":"rooms/r_textBoxSystem/r_textBoxSystem.yy",},"order":8,},
     {"id":{"name":"InitializeWaveLayer","path":"scripts/InitializeWaveLayer/InitializeWaveLayer.yy",},"order":1,},
     {"id":{"name":"obj_TELEPORT_Guanda","path":"objects/obj_TELEPORT_Guanda/obj_TELEPORT_Guanda.yy",},"order":5,},
     {"id":{"name":"tdpiratefx_1_hitsmall_1_2","path":"sprites/tdpiratefx_1_hitsmall_1_2/tdpiratefx_1_hitsmall_1_2.yy",},"order":28,},
@@ -521,13 +521,13 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"r_map","path":"rooms/r_map/r_map.yy",},},
+    {"roomId":{"name":"r_textBoxSystem","path":"rooms/r_textBoxSystem/r_textBoxSystem.yy",},},
     {"roomId":{"name":"r_inventoryPluginTesting","path":"rooms/r_inventoryPluginTesting/r_inventoryPluginTesting.yy",},},
     {"roomId":{"name":"r_tutorialIsland","path":"rooms/r_tutorialIsland/r_tutorialIsland.yy",},},
     {"roomId":{"name":"r_guanda","path":"rooms/r_guanda/r_guanda.yy",},},
     {"roomId":{"name":"r_playerDead","path":"rooms/r_playerDead/r_playerDead.yy",},},
     {"roomId":{"name":"r_crabIsle","path":"rooms/r_crabIsle/r_crabIsle.yy",},},
     {"roomId":{"name":"r_dungeon1","path":"rooms/r_dungeon1/r_dungeon1.yy",},},
-    {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -608,7 +608,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Early GameBoy.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.3.570",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "ShipAdventureGame_GMS",

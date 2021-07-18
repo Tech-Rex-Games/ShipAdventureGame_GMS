@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 191,
   "bbox_top": 0,
-  "bbox_bottom": 95,
+  "bbox_bottom": 128,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 192,
-  "height": 96,
+  "height": 129,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ac3cfa8d-d437-4485-aeb3-ab6bb9cf944f","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ac3cfa8d-d437-4485-aeb3-ab6bb9cf944f","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"LayerId":{"name":"5f50de83-f2ea-43fc-ae12-3833469defee","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tdpiratetiles_sandisland","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","name":"ac3cfa8d-d437-4485-aeb3-ab6bb9cf944f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f85764aa-edce-4f9e-b87c-0161a845a7b7","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f85764aa-edce-4f9e-b87c-0161a845a7b7","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"LayerId":{"name":"b3dc373d-5fd8-4165-881c-be5cb3b3765f","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tdpiratetiles_sandisland","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","name":"f85764aa-edce-4f9e-b87c-0161a845a7b7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"tdpiratetiles_sandisland","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a8ee3d39-7948-4449-95ad-80de2f893de0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac3cfa8d-d437-4485-aeb3-ab6bb9cf944f","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cf2d538b-d453-4ad1-9d9b-59c0f844c58f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f85764aa-edce-4f9e-b87c-0161a845a7b7","path":"sprites/tdpiratetiles_sandisland/tdpiratetiles_sandisland.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5f50de83-f2ea-43fc-ae12-3833469defee","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b3dc373d-5fd8-4165-881c-be5cb3b3765f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

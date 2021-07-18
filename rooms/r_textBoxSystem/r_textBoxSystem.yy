@@ -22,7 +22,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1EE64BDC","path":"rooms/room0/room0.yy",},
+    {"name":"inst_1EE64BDC","path":"rooms/r_textBoxSystem/r_textBoxSystem.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -50,7 +50,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "room0",
+  "name": "r_textBoxSystem",
   "tags": [],
   "resourceType": "GMRoom",
 }
