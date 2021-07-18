@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sWater",
-    "path": "sprites/sWater/sWater.yy",
-  },
+  "spriteId": null,
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,

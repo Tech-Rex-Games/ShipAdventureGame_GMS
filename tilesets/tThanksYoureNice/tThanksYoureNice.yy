@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sPleaseDontUseThis",
-    "path": "sprites/sPleaseDontUseThis/sPleaseDontUseThis.yy",
-  },
+  "spriteId": null,
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,

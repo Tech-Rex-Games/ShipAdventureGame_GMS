@@ -2,6 +2,8 @@ draw_set_color(customWhite)
 draw_set_font(f_main)
 draw_set_halign(fa_left)
 
+//draw_text(500,100,"FPS: " + string(fps_real))
+
 if room != r_map {
 
 //Lives
