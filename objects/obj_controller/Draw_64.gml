@@ -2,7 +2,6 @@ draw_set_color(customWhite)
 draw_set_font(f_main)
 draw_set_halign(fa_left)
 
-//draw_text(500,100,"FPS: " + string(fps_real))
 
 if room != r_map {
 
@@ -44,3 +43,6 @@ draw_text(view_xport[0] + 70, view_yport[0] + 970, "Click - Sword Attack")
 draw_text(view_xport[0] + 70, view_yport[0] + 1000, "Escape - Exit")
 
 }
+
+draw_set_font(f_small)
+draw_text(1830,1050,"FPS: " + string(fps))

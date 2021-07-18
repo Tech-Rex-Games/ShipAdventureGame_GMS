@@ -4,6 +4,4 @@ function InitializeWaveLayer(argument0) {
 	layer_script_begin(argument0,WaveLayerStart);
 	layer_script_end(argument0,WaveLayerEnd);
 	global.wavesurf = surface_create(room_width,room_height);
-
-
 }

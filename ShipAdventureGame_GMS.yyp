@@ -301,6 +301,7 @@
     {"id":{"name":"inventory_clear","path":"scripts/inventory_clear/inventory_clear.yy",},"order":0,},
     {"id":{"name":"tdpiratechar_1_pickupdwn_0","path":"sprites/tdpiratechar_1_pickupdwn_0/tdpiratechar_1_pickupdwn_0.yy",},"order":0,},
     {"id":{"name":"tdpiratechar_2_idlergt_0","path":"sprites/tdpiratechar_2_idlergt_0/tdpiratechar_2_idlergt_0.yy",},"order":50,},
+    {"id":{"name":"spr_compass","path":"sprites/spr_compass/spr_compass.yy",},"order":12,},
     {"id":{"name":"s_alert","path":"sounds/s_alert/s_alert.yy",},"order":2,},
     {"id":{"name":"spr_HUD_mapOutline","path":"sprites/spr_HUD_mapOutline/spr_HUD_mapOutline.yy",},"order":11,},
     {"id":{"name":"tdpiratechar_2_idledwn_2","path":"sprites/tdpiratechar_2_idledwn_2/tdpiratechar_2_idledwn_2.yy",},"order":44,},
