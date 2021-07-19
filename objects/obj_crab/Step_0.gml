@@ -3,6 +3,8 @@ if distance_to_object(obj_player) <= 64 && seenPlayer = false {
 	sprite_index = spr_crabRun
 	audio_play_sound(s_playerSpotted,1,0)
 	instance_create_depth(x + 15,y - 3, -3, obj_FX_playerSpotted)
+	//Crab Walk Noises
+	alarm[2] = 5
 }
 
 if seenPlayer = true && startDeath = false {
@@ -16,4 +18,5 @@ if distance_to_object(obj_player) <= 1 && canDamage = true{
 	obj_controller.Lives -= 1
 	instance_create_depth(0,0,-10,obj_HUD_playerDamaged)
 	alarm[1] = 90
+	//Moving Noise
 }
