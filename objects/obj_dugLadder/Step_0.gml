@@ -1,5 +1,5 @@
 if distance_to_object(obj_player) <= 14 && keyboard_check(ord("E")) && canEnter = true {
-	audio_play_sound(s_woosh,0,0)
+	audio_play_sound(s_climbLadder,0,0)
 	room_goto(r_dungeon1)
 }
 

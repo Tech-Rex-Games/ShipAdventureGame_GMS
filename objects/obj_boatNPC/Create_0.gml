@@ -1,3 +1,5 @@
+customWhite = make_color_rgb(105,86,60)
+
 //Initialize the player
 target_x = x
 target_y = y
