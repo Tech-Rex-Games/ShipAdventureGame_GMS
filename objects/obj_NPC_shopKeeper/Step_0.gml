@@ -1,10 +1,10 @@
-if distance_to_object(obj_player) <= 32 && obj_player.y > y && keyboard_check(ord("E")) {
-
+if distance_to_object(obj_player) <= 32 && keyboard_check(ord("E")) {
+	//instance_create(x,y,obj_textbox)
 }
 
 
 //Playing Audio
-if distance_to_object(obj_player) <= 32 && obj_player.y > y && audio = true {
+if distance_to_object(obj_player) <= 32 && audio = true {
 	audio = false
 	audio_play_sound(s_alert,1,0)
 }

@@ -3,7 +3,7 @@
     "name": "spr_NPC_shopKeeper",
     "path": "sprites/spr_NPC_shopKeeper/spr_NPC_shopKeeper.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
