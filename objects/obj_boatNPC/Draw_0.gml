@@ -24,7 +24,7 @@ draw_self()
 //Right
 if facing = 1 {
 	draw_sprite(spr_FX_shadowMedium,0,x + 33,y + 78)
-	draw_sprite(player_idleRight,0,x + 25,y + 54)
+	draw_sprite(spr_swashbucklerIdleRight,0,x + 25,y + 54)
 }
 //Left
 if facing = 2 {
