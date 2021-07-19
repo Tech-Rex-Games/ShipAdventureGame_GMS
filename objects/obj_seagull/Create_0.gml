@@ -1,3 +1,3 @@
 image_speed = .3
 vspeed = .6
-depth = -10
+depth = -999
