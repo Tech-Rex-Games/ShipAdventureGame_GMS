@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_x",
-    "path": "sprites/spr_x/spr_x.yy",
+    "name": "spr_xDigSpot",
+    "path": "sprites/spr_xDigSpot/spr_xDigSpot.yy",
   },
   "solid": false,
   "visible": true,
