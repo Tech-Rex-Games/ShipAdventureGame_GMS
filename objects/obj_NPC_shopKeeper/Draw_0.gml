@@ -1,6 +1,15 @@
-draw_sprite(spr_FX_shadowMedium,0,x + 8,y + 25)
-draw_self()
+if distance_to_object(obj_player) <= 32 && keyboard_check(ord("E")) {
+	instance_create(x,y,obj_shop_keeper)
+}
 
-if distance_to_object(obj_player) <= 32{
-	draw_sprite(spr_HUD_E,0,x,y - 20)
+
+//Playing Audio
+if distance_to_object(obj_player) <= 32 && audio = true {
+	audio = false
+	audio_play_sound(s_alert,1,0)
+}
+
+if distance_to_object(obj_player) > 34 && audio = false {
+	audio = true
+	audio_play_sound(s_alertOff,1,0)
 }

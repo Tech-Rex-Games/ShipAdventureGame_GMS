@@ -1,5 +1,5 @@
 if distance_to_object(obj_player) <= 32 && keyboard_check(ord("E")) {
-	instance_create(x,y,obj_textbox)
+	instance_create(x,y,obj_shop_keeper)
 }
 
 
