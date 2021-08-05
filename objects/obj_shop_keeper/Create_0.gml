@@ -40,6 +40,4 @@ ctb_set_padding( 116,10,10,10 );
 sprite_index = ctb_load_subimage( spr_textbox_slice9_subimages, room_width-128, 108 );
 
 // Add some text in the textbox.
-ctb_add_text( "This is Jakes test Dialog" );
-ctb_add_text( "Welcome to the shop bitches" );
-ctb_add_text( "" );
+ctb_add_text( "Welcome to the Shop! We are currently setting up but please come back at a later time." );
