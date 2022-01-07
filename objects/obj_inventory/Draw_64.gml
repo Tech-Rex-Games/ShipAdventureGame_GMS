@@ -1,6 +1,9 @@
 //Only Show After 'I' Has Been Pressed
 if show = true {
 
+//stop player movement
+global.canwalk = 0
+
 // Drawing inv on screen
 
 draw_panel(spr_background,0,5,5,__view_get( e__VW.WView, 0 )-10,__view_get( e__VW.HView, 0 )-10,32)
@@ -28,4 +31,10 @@ string_hash_to_newline("#Selected Item Name: " + string(item_id_read(id_last,0))
 draw_sprite_ext(item_id_read(id_last,2),image_index,60,250,4,4,0,c_white,1);
 }
 
+}
+
+if show = false
+{
+	//start player movement back up
+	global.canwalk = 1
 }

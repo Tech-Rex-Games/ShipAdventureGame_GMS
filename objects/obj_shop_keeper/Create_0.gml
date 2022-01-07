@@ -3,6 +3,9 @@
     all the below functions.
 */
 
+
+
+
 // Initialize the CTB engine
 ctb_init();
 
@@ -29,15 +32,14 @@ ctb_add_font( "other", f_other );
 ctb_add_sound( "gun", snd_gun );
 
 // Add a custom command to change character image!
-char_sprite = spr_char;
-ctb_add_command( "char", command_char );
 
 // Set the padding of the textbox
 // We add a big left padding to insert a character sprite in rhw textbox
-ctb_set_padding( 116,10,10,10 );
+ctb_set_padding( 10,10,10,10 );
+//was 116,10,10,10
 
 // Set the textbox's background
-sprite_index = ctb_load_subimage( spr_textbox_slice9_subimages, room_width-128, 108 );
+sprite_index = ctb_load_subimage( spr_textbox_slice9_subimages, 100, 50 );
 
 // Add some text in the textbox.
 ctb_add_text( "Welcome to the Shop! We are currently setting up but please come back at a later time." );

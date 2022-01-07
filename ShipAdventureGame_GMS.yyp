@@ -519,6 +519,7 @@
     {"name":"Android","path":"options/android/options_android.yy",},
     {"name":"iOS","path":"options/ios/options_ios.yy",},
     {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -618,7 +619,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Early GameBoy.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.3.570",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "ShipAdventureGame_GMS",

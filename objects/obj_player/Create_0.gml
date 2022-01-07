@@ -20,3 +20,6 @@ loot = ""
 
 //Equipped Weapon/Tool
 equipped = 1
+
+//Enable walk on player create   made it global
+global.canwalk = 1

@@ -2,10 +2,13 @@
 // You can write your code in this editor
 
 //Snap to nearest 64 block
-if (target_x > x) { x +=4 }; //right
-if (target_x < x) { x -=4 }; //left
-if (target_y > y) { y +=4 }; //down
-if (target_y < y) { y -=4 }; //up
+if (global.canwalk = 1)
+{
+	if (target_x > x) { x +=4 }; //right
+	if (target_x < x) { x -=4 }; //left
+	if (target_y > y) { y +=4 }; //down
+	if (target_y < y) { y -=4 }; //up
+}
 
 //Check for Destination
 if (target_x == x && target_y == y ) {
